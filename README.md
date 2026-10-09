@@ -10,7 +10,11 @@
 
 Native macOS · Voice first · Quiet by design · Built toward real computer work
 
-[The idea](#the-idea) · [What works today](#what-works-today) · [How-it-works](#how-it-works) · [The build](#the-build) · [What's-next](#whats-next)
+![macOS 14 or later](https://img.shields.io/badge/macOS-14%2B-192A29?style=flat-square&logo=apple&logoColor=white)
+![Swift 6](https://img.shields.io/badge/Swift-6-F2A65A?style=flat-square&logo=swift&logoColor=192A29)
+![Development build](https://img.shields.io/badge/Status-Development-80C7AA?style=flat-square)
+
+[The idea](#the-idea) · [What works today](#what-works-today) · [How it works](#how-it-works) · [The build](#the-build) · [What's next](#whats-next)
 
 ---
 
