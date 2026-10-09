@@ -1,0 +1,24 @@
+{
+  "model_name": "gliclass-base-v3.0-onnx",
+  "repository": "https://huggingface.co/cnmoro/gliclass-base-v3.0-onnx",
+  "base_model": "knowledgator/gliclass-base-v3.0",
+  "revision": "8acca975fd47e89e15f13a4f5446f2ccd1dcf7bb",
+  "license": "Apache-2.0",
+  "architecture": "GLiClass zero-shot text classification (DeBERTa-v3 bi-encoder)",
+  "quantization": "int8 dynamic quantization",
+  "files": [
+    {
+      "filename": "model.onnx",
+      "source_filename": "model_i8.onnx",
+      "sha256": "1157fe6956df26134b6c47a1ead9a181a9773108a34b28aaef3eda8a7ba5741a",
+      "size_bytes": 246882679
+    },
+    {
+      "filename": "tokenizer.json",
+      "source_filename": "tokenizer.json",
+      "sha256": "9db2e87fbab9819100edd8d6dc7a54f82167045d04bfb752039dae4efb9cd85c",
+      "size_bytes": 8649499
+    }
+  ],
+  "provenance_notes": "Exported to ONNX and int8-quantized by cnmoro from knowledgator/gliclass-base-v3.0 under Apache 2.0 license. Task categories (greeting, question/general text, software programming, math, computer control) are learned zero-shot predictions; task difficulty (simple, medium, complex) and capability requirements (vision, tools) are derived independently via routing heuristics without unverified accuracy promises."
+}

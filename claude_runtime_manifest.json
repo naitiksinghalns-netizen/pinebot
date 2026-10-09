@@ -1,0 +1,22 @@
+{
+  "runtime_name": "pinebot-claude-acp-runtime",
+  "components": [
+    {
+      "name": "@anthropic-ai/claude-code",
+      "version": "2.1.293",
+      "binary": "bin/claude.exe",
+      "type": "Mach-O 64-bit executable arm64",
+      "sha256": "4e21122a227857da1178aca3299700c1fd7f2b77c93f12e73c2c76db796a105e",
+      "license": "Anthropic Claude Code Terms (https://code.claude.com/docs/en/legal-and-compliance)",
+      "source": "https://registry.npmjs.org/@anthropic-ai/claude-code/-/claude-code-2.1.293.tgz"
+    },
+    {
+      "name": "@agentclientprotocol/claude-agent-acp",
+      "version": "0.88.0",
+      "entrypoint": "dist/index.js",
+      "sha256": "4a1f0fff5cdd26b8c9adb5f9b3d314640e06f876cfff97cac437159b4551ec27",
+      "license": "Apache-2.0",
+      "source": "https://registry.npmjs.org/@agentclientprotocol/claude-agent-acp/-/claude-agent-acp-0.88.0.tgz"
+    }
+  ]
+}
