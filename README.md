@@ -14,7 +14,7 @@ Native macOS · Voice first · Quiet by design · Built toward real computer wor
 ![Swift 6](https://img.shields.io/badge/Swift-6-F2A65A?style=flat-square&logo=swift&logoColor=192A29)
 ![Development build](https://img.shields.io/badge/Status-Development-80C7AA?style=flat-square)
 
-[The idea](#the-idea) · [What works today](#what-works-today) · [How it works](#how-it-works) · [The build](#the-build) · [What's next](#whats-next)
+[The idea](#the-idea) · [What works today](#what-works-today) · [How it works](#how-it-works) · [The build](#the-build) · [Project brief](docs/PROJECT.md) · [What's next](#whats-next)
 
 ---
 
@@ -35,6 +35,8 @@ The destination is simple:
 > “Done. I saved the summary and sources.”
 
 **That end-to-end workflow is the goal, not a claim about this version.** Pinebot is an early development build. App opening and Apple Music playback have been tested live; general browser-to-Notes work and independent subagents are still being built.
+
+**Evaluating the project?** Read the [project brief](docs/PROJECT.md) for the problem, design decisions, demonstrated capabilities, and next milestones. It separates the public prototype from newer work still under review.
 
 ## A personality with a purpose
 
@@ -137,7 +139,9 @@ Some integration tests need runtime assets. Missing assets should be treated as 
 
 ### Evidence over theater
 
-The most recent full development run completed **137 tests with zero failures**. A subsequent focused run passed **24 intent-and-speech tests**. Live checks covered Calculator launch, Apple Music playback and pause, companion visibility, and speech presentation diagnostics.
+At the published prototype checkpoint, a full development run completed **137 tests with zero failures**. A subsequent focused run passed **24 intent-and-speech tests**. Live checks covered Calculator launch, Apple Music playback and pause, companion visibility, and speech presentation diagnostics.
+
+The newer development working copy reached a **201-test passing checkpoint**, followed by additional fixes whose regression suite still needs to compile and pass. Those unaccepted implementation changes are not included in this public update. Browser-to-Notes and independent worker execution remain unverified end to end.
 
 Tests protect individual behaviors. They do not establish that Pinebot can reliably complete arbitrary computer tasks.
 
